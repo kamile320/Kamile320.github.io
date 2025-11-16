@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    font-family: Arial;
+}
+
+.left_panel{
+    height: 100vh;
+    background-color: rgb(3, 3, 56);
+    padding: 15px;
+    font-family: Arial;
+    box-sizing: border-box;
+    color: rgb(231, 231, 127);
+    overflow-wrap: break-word;
+    word-break: break-word;
+}.left_panel h3{
+    color: green;
+}.left_panel a{
+    color: rgb(255, 255, 67);
+}.left_panel a:visited{
+    color: rgb(185, 185, 70);
+}.left_panel li{
+    margin-top: 10px;
+}
+
+.main_panel{
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: flex-start;
+    color: bisque;
+}.main_panel h1{
+    color: yellow;
+}.main_panel a{
+    color: orange;
+}.main_panel a:visited{
+    color: olivedrab
+}.main_panel a:hover{
+    color: darkorange;
+}
